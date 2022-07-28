@@ -1,0 +1,297 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ibarra Real Nova', serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(22, 21, 21);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+
+} 
+.contanire{
+    height:100vh;
+    width: 85%;
+    padding:0 25px;
+    overflow: hidden;
+    margin: auto;
+    /******************************/
+    display: flex;
+    justify-content: center;
+    /******************************/
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /******************************/
+    position: fixed;
+    z-index: 9999;
+    background-color: rgb(22, 21, 21);
+    width: 85%;
+    padding: 0 5px;
+    height: 50px;
+    border-radius: 20px;
+    /******************************/
+}
+nav .logo{
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+nav span{
+    color: rgb(235, 12, 79);
+}
+nav ul li{
+    display:inline-block;
+    margin: 0 20px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: rgb(235, 12, 79);
+}
+nav button{
+    font-size: 15px;
+    color: white;
+    background: rgb(235, 12, 79);
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    border-color: rgb(235, 12, 79);
+    transition: 0.5s;
+}
+nav button:hover{
+    background-color: rgb(39, 39, 39);
+}
+.contant{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contant .text{
+    width: 45%;
+    color: white;
+    height: 400px;
+    text-transform: capitalize;
+
+}
+.contant .text p, h1, span, button{
+    margin: 25px 0;
+}
+.contant .text h1{
+    font-size: 35px;
+}
+.contant .text span{
+    color: rgb(235, 12, 79);
+
+}
+.contant .text .color{
+    color: rgb(236, 178, 224);
+}
+.contant .text button{
+    font-size: 15px;
+    color: white;
+    background: rgb(235, 12, 79);
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    border-color: rgb(235, 12, 79);
+    transition: 0.5s;
+}
+.contant .text button:hover{
+    background-color: rgb(39, 39, 39);
+}
+.contant .icon a{
+    padding: 0 10px;
+
+}
+.contant .icon a img{
+    width: 30px;
+    padding: 30px 0;
+    
+}
+.contant .image{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.contant .image img{
+    position: absolute;
+     bottom: 0;
+     left: 50%;
+     transition: 1s;
+     transform:translateX(-50%)
+     
+}
+.contant .image .bo{
+    width: 450px;
+}
+.contant .image .bo2{
+    width: 350px;
+}
+.contant .image:hover .bo{
+    bottom: 25%;
+}
+.contant .image:hover .bo2{
+    left: 39%;
+}
+.section {
+    background-color: rgb(56, 56, 56);
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.section .secimg{
+    width: 45%;
+}
+.section .secimg img{
+    width: 90%;
+}
+.AboutMe{
+    width: 45%;
+    color: white;
+}
+.AboutMe h1{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.AboutMe span{
+    color: rgb(235, 12, 79);
+}
+.AboutMe p{
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    color: rgb(236, 178, 224);
+}  
+.AboutMe h2{
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+}  
+.Services{
+    width: 85%;
+    height: 65%;
+    margin: auto;
+}
+.Services h1{
+color: white;
+font-size: 35px;
+letter-spacing: 1px;
+text-align: center;
+}
+.Services span{
+    color: rgb(235, 12, 79);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.box .card{
+    text-align: center;
+    padding: 1.3rem 2rem;
+    border-radius: 20px;
+    width: 21%;
+    background-color: rgb(39, 39, 39);
+    color: rgb(236, 178, 224);
+}
+.card i{
+    color: rgb(235, 12, 79);
+    font-size: 30px; 
+    margin: 1rem;
+}
+.card h3{
+    color: white;
+    margin: 1rem;
+}
+.myskills{
+    background-color: rgb(56, 56, 56);
+    padding: 50px 200px;
+    display: flex;
+
+}
+.myskills h1{
+    color: white;
+    font-size: 35px;
+}
+.myskills span{
+    color: rgb(235, 12, 79);
+}
+.skills{
+    width: 45%;
+}
+.skillsimg{
+    width: 45%;
+}
+.myskills {
+    background-color: rgb(56, 56, 56);
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.skills{
+    width: 45%;
+    color: white;
+}
+.skills h1{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.skills span{
+    color: rgb(235, 12, 79);
+}
+.myskills .skills .poto1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myskills .skills .poto{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 2rem 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myskills .skills .poto img{
+    width: 70%;
+}
+.myskills .secimg{
+    width: 45%;
+}
+.myskills .secimg img{
+    width: 90%;
+}
+.end1{
+    padding: 2rem;
+    color: white;
+
+}
+.end1 .contantfooter{
+    text-align: center;
+
+}
+.end1 .contantfooter span , .end{
+    color: rgb(235, 12, 79);
+}
+.end1 .contantfooter .end{
+    padding: 40px;
+}
